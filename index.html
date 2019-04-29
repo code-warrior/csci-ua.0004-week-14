@@ -12,5 +12,30 @@
    <main>
       <svg></svg>
    </main>
+   <script>
+window.onload = () => {
+    const MAX = 500;
+    let circles = new Array(MAX); // Create 500 items
+    let svg = document.querySelector(`svg`); // Establish a reference to the <svg> element
+
+    // Run every line of code between curly brackets MAX times.
+    for (let i = 0; i < MAX; i++) {
+        // Create a new <circle>
+        circles[i] = document.createElementNS(`http://www.w3.org/2000/svg`, `circle`);
+
+        // Add the “cx” attribute, assigning a random number between 0 – 500
+        circles[i].setAttribute(`cx`, Math.floor((Math.random() * MAX)));
+
+        // Add the “cy” attribute, assigning a random number between 0 – 500
+        circles[i].setAttribute(`cy`, Math.floor((Math.random() * MAX)));
+
+        // Set the radius to 1 on each new <circle>
+        circles[i].setAttribute(`r`, 1);
+
+        // Append the <circle> element as the last child to the <svg> element
+        svg.appendChild(circles[i]);
+    }
+};
+   </script>
 </body>
 </html>
