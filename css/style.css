@@ -26,3 +26,11 @@ svg {
    width: 500px;
    height: 500px;
 }
+
+#darker-diagonal-line {
+   fill: #dabadaee;
+}
+
+.lighter-diagonal-line {
+   fill: #dabada66;
+}
