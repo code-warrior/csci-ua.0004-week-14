@@ -16,58 +16,19 @@ h1 {
    margin: 14px 0 2px;
 }
 
-h2 {
-   text-transform: capitalize;
-   text-align: center;
-   font-size: 1rem;
-   font-weight: 600;
-   margin: 12px 0 8px;
-}
-
 main {
-   display: flex;
-   justify-content: space-around;
 }
 
-main > section {
-   width: 300px;
 }
 
-figure {
-   position: relative;
 }
 
-figure > figcaption {
-   position: absolute;
-   bottom: -40px;
-   background-color: rgba(255, 255, 255, .9);
-   width: 300px;
-   height: 40px;
-   text-align: center;
-   font-weight: 200;
-   font-size: 14px;
-   line-height: 40px;
-   opacity: 0;
-   transition: 350ms;
 }
 
-figure:hover > figcaption {
-   opacity: 1;
-   bottom: 0;
 }
 
-figure > img {
-   color: #900;
-   width: 300px;
 }
 
-figure + p {
-   background-color: white;
-   font-weight: 200;
-   padding-top: 8px;
-   position: relative;
 }
 
-a {
-   text-decoration: none;
 }
