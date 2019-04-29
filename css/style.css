@@ -26,11 +26,3 @@ svg {
    width: 500px;
    height: 500px;
 }
-
-circle:nth-of-type(even) {
-   fill: #bada55;
-}
-
-circle:nth-of-type(odd) {
-   fill: #656500;
-}
