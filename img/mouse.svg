@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="768" height="576">
+   <defs>
+      <style>
+#face {
+   fill: #dcbbab;
+}
+
+#whiskers {
+   stroke: #957968;
+}
+
+#eyes {
+   fill: #411a1f;
+}
+
+#nose {
+   fill: #c1857a;
+}
+
+#ears {
+   fill: #7b4c44;
+}
+      </style>
+   </defs>
+   <g id="face">
+      <path d="M300,270 Q420,120 460,329" />
+      <path d="M300,270 Q250,480 460,329" />
+      <path d="M300,270 Q380,200 420,320" />
+      <path d="M300,270 Q360,190 460,329" />
+   </g>
+   <g id="whiskers">
+      <g id="whiskers--left">
+         <line x1="280" y1="336" x2="200" y2="311" />
+         <line x1="280" y1="359" x2="200" y2="375" />
+         <line x1="290" y1="349" x2="215" y2="356" />
+      </g>
+      <g id="whiskers--right">
+         <line x1="366" y1="336" x2="481" y2="311" />
+         <line x1="356" y1="349" x2="445" y2="356" />
+         <line x1="346" y1="359" x2="423" y2="375" />
+      </g>
+   </g>
+   <g id="eyes">
+      <circle cx="305" cy="277" r="14" />
+      <circle cx="390" cy="287" r="14" />
+   </g>
+   <g id="nose">
+      <circle cx="310" cy="365" r="15" />
+   </g>
+   <g id="ears">
+      <path d="M305,203 L328,225 L300,245" />
+      <path d="M448,280 A25,40 0 1 0 433,251 L450 245" />
+      <!-- Note “L455 245” above. Uncomment the following line to see why it’s there. -->
+      <!-- <circle cx="450" cy="245" r="2" fill="black" /> -->
+   </g>
+</svg>
