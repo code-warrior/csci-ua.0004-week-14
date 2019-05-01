@@ -16,7 +16,7 @@ svg {
 
 #x > line:last-of-type {
    /* Draw a 3-pixel line followed by a 4-pixel space, then a 9-pixel line followed by a 30-pixel space. */
-   stroke-dasharray:  3, 4, 9, 30;
+   stroke-dasharray: 3, 4, 9, 30;
 }
 
 #cross-hair {
