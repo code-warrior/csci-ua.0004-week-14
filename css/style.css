@@ -21,32 +21,6 @@ main {
    margin: auto;
 }
 
-svg {
-   background-color: #dabada55;
    width: 500px;
    height: 500px;
-}
-
-#x {
-   stroke: red;
-}
-
-#cross-hair {
-   stroke: #666;
-}
-
-#m > line:nth-of-type(1) {
-   stroke: green;
-}
-
-#m > line:nth-of-type(2) {
-   stroke: blue;
-}
-
-#m > line:nth-of-type(3) {
-   stroke: yellow;
-}
-
-#m > line:nth-of-type(4) {
-   stroke: orange;
 }
