@@ -4,16 +4,30 @@
 }
 
 body {
+   width: 768px;
    margin: auto;
+   font-family: 'Noto Sans', sans-serif;
 }
 
+h1,
 h2 {
+   margin: 12px 0;
    text-align: center;
 }
 
+#buttons-container {
+   margin-bottom: 22px;
    text-align: center;
 }
 
+#buttons-container > button {
+   cursor: pointer;
+   padding: 12px;
 }
 
+#svg-container {
+   background-image: url('../img/mouse.jpg');
+   background-color: rgb(238, 238, 238);
+   width: 768px;
+   height: 576px;
 }
